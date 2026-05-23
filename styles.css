@@ -1,1 +1,146 @@
-/* your code here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #00e28a;
+    font-family: 'Raleway', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	 box-sizing: border-box;
+}
+
+.product {
+    display: flex;
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px;
+	margin:100px;
+    width: 900px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* Product Photo */
+.product__photo {
+    flex: 1;
+}
+
+.photo-container {
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+	margin-right:10px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.photo-main {
+    background: #b7e532;
+    padding: 20px;
+}
+
+.photo-main img {
+    width: 100%;
+    max-width: 300px;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.photo-album {
+  
+	padding:15px;
+    background: #fff;
+	
+}
+
+.photo-album ul {
+    display: flex;
+    justify-content: space-between;
+	
+    list-style: none;
+}
+
+.photo-album li img {
+    width: 70px;
+    height: 70px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+	margin:1px;
+}
+
+/* Product Info */
+.product__info {
+    flex: 1;
+    padding-left: 40px;
+}
+
+.title h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+.title span {
+    color: #999;
+    font-size: 14px;
+}
+
+.price {
+    color: #ff4d4d;
+    font-size: 32px;
+    margin: 25px 0;
+}
+
+.price span {
+    font-size: 60px;
+}
+
+.variant h3,
+.description h3 {
+    margin-bottom: 15px;
+    color: #777;
+    letter-spacing: 1px;
+}
+
+.variant ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.variant ul li img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.description ul {
+    margin-left: 20px;
+    line-height: 2;
+    color: #444;
+    margin-bottom: 30px;
+}
+
+button {
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
